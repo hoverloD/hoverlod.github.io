@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-01-26T20:14:27.984Z</updated>
+  <updated>2022-01-27T07:31:56.820Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -21,13 +21,21 @@
     <link href="https://hoverlod.github.io/2022/01/26/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0-N5/"/>
     <id>https://hoverlod.github.io/2022/01/26/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0-N5/</id>
     <published>2022-01-26T09:31:47.000Z</published>
-    <updated>2022-01-26T20:14:27.984Z</updated>
+    <updated>2022-01-27T07:31:56.820Z</updated>
     
-    <content type="html"><![CDATA[<p>学日语必然有用，因为自己可以一辈子做阿宅。</p><p>これからどうしようか<br>二人最後に笑うだけ</p><span id="more"></span><h2 id="单词"><a href="#单词" class="headerlink" title="单词"></a>单词</h2><p>拗长音是一个整体！</p><p>きょお：分开读</p><p>平假名的组合比较少，片假名灵活</p><h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><h3 id="量词"><a href="#量词" class="headerlink" title="量词"></a>量词</h3><p><img src="https://i.loli.net/2021/10/12/xB2ms4ulKVWpMvc.png" alt="image-20211012210703610"></p><p><img src="https://i.loli.net/2021/10/12/kLfMbN1XRzC2dlj.png" alt="image-20211012211531011"></p><p><img src="https://i.loli.net/2021/10/12/n1xgDBOas2HjceG.png" alt="image-20211012211448225"></p><p><img src="https://i.loli.net/2021/10/12/nvfZq2TjEzbOsiD.png" alt="image-20211012211555930"></p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="微软日语输入法"><a href="#微软日语输入法" class="headerlink" title="微软日语输入法"></a>微软日语输入法</h3><p><code>Alt+反引号</code>、<code>shift+caps lock</code>：切换假名/英语</p><p><code>ctrl+caps lock</code>：平假名</p><p><code>Alt+caps lock</code>：片假名</p>]]></content>
+    <content type="html"><![CDATA[<span id="more"></span><h2 id="单词"><a href="#单词" class="headerlink" title="单词"></a>单词</h2><p>拗长音是一个整体！</p><p>きょお：分开读</p><p>平假名的组合比较少，片假名灵活</p><h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><h3 id="量词"><a href="#量词" class="headerlink" title="量词"></a>量词</h3><p><img src="https://i.loli.net/2021/10/12/xB2ms4ulKVWpMvc.png" alt="image-20211012210703610"></p><p><img src="https://i.loli.net/2021/10/12/kLfMbN1XRzC2dlj.png" alt="image-20211012211531011"></p><p><img src="https://i.loli.net/2021/10/12/n1xgDBOas2HjceG.png" alt="image-20211012211448225"></p><p><img src="https://i.loli.net/2021/10/12/nvfZq2TjEzbOsiD.png" alt="image-20211012211555930"></p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="微软日语输入法"><a href="#微软日语输入法" class="headerlink" title="微软日语输入法"></a>微软日语输入法</h3><p><code>Alt+反引号</code>、<code>shift+caps lock</code>：切换假名/英语</p><p><code>ctrl+caps lock</code>：平假名</p><p><code>Alt+caps lock</code>：片假名</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;学日语必然有用，因为自己可以一辈子做阿宅。&lt;/p&gt;
-&lt;p&gt;これからどうしようか&lt;br&gt;二人最後に笑うだけ&lt;/p&gt;</summary>
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+
+
+
+&lt;h2 id=&quot;单词&quot;&gt;&lt;a href=&quot;#单词&quot; class=&quot;headerlink&quot; title=&quot;单词&quot;&gt;&lt;/a&gt;单词&lt;/h2&gt;&lt;p&gt;拗长音是一个整体！&lt;/p&gt;
+&lt;p&gt;きょお：分开读&lt;/p&gt;
+&lt;p&gt;平假名的组合比较少，片</summary>
+      
     
     
     
@@ -145,11 +153,11 @@
     <category term="web开发" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/web%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="js" scheme="https://hoverlod.github.io/tags/js/"/>
-    
     <category term="react" scheme="https://hoverlod.github.io/tags/react/"/>
     
     <category term="php" scheme="https://hoverlod.github.io/tags/php/"/>
+    
+    <category term="js" scheme="https://hoverlod.github.io/tags/js/"/>
     
     <category term="nginx" scheme="https://hoverlod.github.io/tags/nginx/"/>
     

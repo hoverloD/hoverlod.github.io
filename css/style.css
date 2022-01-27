@@ -389,7 +389,7 @@ th:not([align]) {
 }
 html {
   background-color: #f7f7f7;
-  font-size: 16px;
+  font-size: 15px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -11289,7 +11289,7 @@ figure.highlight figcaption * {
   color: inherit;
 }
 figure.highlight figcaption span {
-  font-weight: 800;
+  font-weight: 700;
   font-family: 'Source Code Pro', monospace, 'Microsoft YaHei';
 }
 figure.highlight figcaption .level-left *:not(:last-child) {

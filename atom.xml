@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-01-28T20:04:30.765Z</updated>
+  <updated>2022-01-28T21:07:56.979Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -21,11 +21,19 @@
     <link href="https://hoverlod.github.io/2022/01/29/%E5%B8%AEzz%E6%90%ADgithub%E5%8D%9A%E5%AE%A2/"/>
     <id>https://hoverlod.github.io/2022/01/29/%E5%B8%AEzz%E6%90%ADgithub%E5%8D%9A%E5%AE%A2/</id>
     <published>2022-01-28T20:04:30.000Z</published>
-    <updated>2022-01-28T20:04:30.765Z</updated>
+    <updated>2022-01-28T21:07:56.979Z</updated>
     
     
     
     
+    <category term="技术" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="配置" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/%E9%85%8D%E7%BD%AE/"/>
+    
+    
+    <category term="blog" scheme="https://hoverlod.github.io/tags/blog/"/>
+    
+    <category term="git" scheme="https://hoverlod.github.io/tags/git/"/>
     
   </entry>
   
@@ -203,11 +211,11 @@
     <category term="web开发" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/web%E5%BC%80%E5%8F%91/"/>
     
     
+    <category term="js" scheme="https://hoverlod.github.io/tags/js/"/>
+    
     <category term="react" scheme="https://hoverlod.github.io/tags/react/"/>
     
     <category term="php" scheme="https://hoverlod.github.io/tags/php/"/>
-    
-    <category term="js" scheme="https://hoverlod.github.io/tags/js/"/>
     
     <category term="nginx" scheme="https://hoverlod.github.io/tags/nginx/"/>
     

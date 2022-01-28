@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-01-28T21:37:53.402Z</updated>
+  <updated>2022-01-28T22:54:37.607Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>音乐视频测试</title>
+    <link href="https://hoverlod.github.io/2022/01/29/%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/"/>
+    <id>https://hoverlod.github.io/2022/01/29/%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</id>
+    <published>2022-01-28T22:52:16.000Z</published>
+    <updated>2022-01-28T22:54:37.607Z</updated>
+    
+    <content type="html"><![CDATA[<p>咳，麦克风测试——</p><span id="more"></span><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1378531&auto=1&height=66"></iframe><iframe src="//player.bilibili.com/player.html?aid=764246069&bvid=BV1Pr4y1k7uG&cid=441572098&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;咳，麦克风测试——&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>帮ZZ搭github博客</title>

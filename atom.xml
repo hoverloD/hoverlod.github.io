@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-01-29T03:32:13.814Z</updated>
+  <updated>2022-01-29T09:17:41.464Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -17,16 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>在？进来破防</title>
+    <link href="https://hoverlod.github.io/2022/01/29/%E5%9C%A8%EF%BC%9F%E8%BF%9B%E6%9D%A5%E7%A0%B4%E9%98%B2/"/>
+    <id>https://hoverlod.github.io/2022/01/29/%E5%9C%A8%EF%BC%9F%E8%BF%9B%E6%9D%A5%E7%A0%B4%E9%98%B2/</id>
+    <published>2022-01-29T08:58:06.000Z</published>
+    <updated>2022-01-29T09:17:41.464Z</updated>
+    
+    <content type="html"><![CDATA[<p>无情的沙漠~ 谁来带我走出这样无情的沙漠</p><span id="more"></span><p><img src="https://gitee.com/hoverload/fig-bed/raw/master/%E5%8D%B1%E6%9C%BA%E5%8D%B1%E6%9C%BA%E5%8D%B1%E6%9C%BA.jpg" alt="实际：危机危机危机"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;无情的沙漠~ 谁来带我走出这样无情的沙漠&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="乱弹" scheme="https://hoverlod.github.io/categories/%E4%B9%B1%E5%BC%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>全栈修炼指南学习笔记</title>
-    <link href="https://hoverlod.github.io/2022/01/29/%E5%85%A8%E6%A0%88%E4%BF%AE%E7%82%BC%E6%8C%87%E5%8D%97%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>https://hoverlod.github.io/2022/01/29/%E5%85%A8%E6%A0%88%E4%BF%AE%E7%82%BC%E6%8C%87%E5%8D%97%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <link href="https://hoverlod.github.io/2022/01/29/%E5%85%A8%E6%A0%88%E4%BF%AE%E7%82%BC%E6%8C%87%E5%8D%97%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%F0%9F%90%B1%E2%80%8D%F0%9F%91%A4/"/>
+    <id>https://hoverlod.github.io/2022/01/29/%E5%85%A8%E6%A0%88%E4%BF%AE%E7%82%BC%E6%8C%87%E5%8D%97%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%F0%9F%90%B1%E2%80%8D%F0%9F%91%A4/</id>
     <published>2022-01-29T02:17:55.000Z</published>
-    <updated>2022-01-29T03:32:13.814Z</updated>
+    <updated>2022-01-29T09:26:31.516Z</updated>
     
-    <content type="html"><![CDATA[<p>极〇时间的专栏课，学习中</p><span id="more"></span><p>现实中有不少迈入职场没有几年，却已经给自己打上“前端工程师”“后端工程师”等标签的程序员朋友。我觉得他们可能是受到了某些万恶的职业生涯规划鸡汤的影响，这些标签会让他们在面对新技术和新机遇的时候，觉得身处“不属于自己的领域”而选择封闭自己。</p><p>因此我的建议是：<strong>职业生涯不宜过早做过细的规划，除了技术深度，也需要在技术广度上积累，等到一定程度以后再来选择自己的发展分支路线。</strong>而且，某些特定技术领域，在程序员给自己打标签的时候，压根还没有发展成熟，等到发展起来，时机真正到来的时候，只有那些原本“不偏食”的优秀的程序员才能够脱颖而出。</p><p>英文能力是突破天花板的一个必选项。我觉得英文是所有进阶的软件工程师应当强化的能力，对全栈工程师来说更甚。因为基于 Web 的全栈技术迭代很快，新的技术资料一般都是英文的，英文能力，尤其是英文的阅读能力会很大程度地影响知识获取的速度。</p>]]></content>
+    <content type="html"><![CDATA[<p>极〇时间专栏课，学习中</p><span id="more"></span><h2 id="杂谈"><a href="#杂谈" class="headerlink" title="杂谈"></a>杂谈</h2><blockquote><p>先成为合格的工程师，再谈全栈。</p></blockquote><h3 id="打标签"><a href="#打标签" class="headerlink" title="打标签"></a>打标签</h3><p>现实中有不少迈入职场没有几年，却已经给自己打上“前端工程师”“后端工程师”等标签的程序员朋友。我觉得他们可能是受到了某些万恶的职业生涯规划鸡汤的影响，这些标签会让他们在面对新技术和新机遇的时候，觉得身处“不属于自己的领域”而选择封闭自己。</p><p>因此我的建议是：<strong>职业生涯不宜过早做过细的规划，除了技术深度，也需要在技术广度上积累，等到一定程度以后再来选择自己的发展分支路线。</strong>而且，某些特定技术领域，在程序员给自己打标签的时候，压根还没有发展成熟，等到发展起来，时机真正到来的时候，只有那些原本“不偏食”的优秀的程序员才能够脱颖而出。</p><h3 id="英文"><a href="#英文" class="headerlink" title="英文"></a>英文</h3><p>英文能力是突破天花板的一个必选项。我觉得英文是所有进阶的软件工程师应当强化的能力，对全栈工程师来说更甚。因为基于 Web 的全栈技术迭代很快，新的技术资料一般都是英文的，英文能力，尤其是英文的阅读能力会很大程度地影响知识获取的速度。</p><h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p><strong>在获取知识的基础上思考，尤其是从比较中思考</strong>。</p><p>我们在实际工作中需要解决各种各样不可预料的问题，缺乏思考的人只会用自己所知道的技术生硬地往上套，而不去考虑是否适合问题本身，不去分析和比对不同解决方法的优劣。<strong>对于全栈技术学习而言，由于技术种类多，同类技术多，基于比较的思考就显得更为重要</strong>。但在这方面，我认为入门和进阶的工程师应当有所区别：</p><ul><li>如果你在这方面入门不久，那么我建议你还是以知识性学习为主，先建立概念，了解全局。在选择要学习的技术时，要找那些经典的、使用的人多，以及接受度高的技术。在此基础上，尝试去思考这些技术的特点，为什么要这样做，好处和坏处各是什么。了解背景，即在所介绍的技术出现以前，程序员都是怎样做的，比较一下二者的区别是什么，或者说，新技术，带来了什么。</li><li>如果你是这方面的进阶工程师，那么“思考”的比重需要更高。全栈的技术太多太杂，不思考而以知识堆叠的方式记忆，是根本学不过来的。因此需要结合自身经验，尤其是针对同类的不同技术，要不断地去权衡，并强化自己的思考习惯——针对学习材料，哪些观点是自己不同意的，哪些内容是自己需要补充的，哪些部分是自己需要延伸学习一下的。</li></ul><p>通过耐心地思考和比较，知识积累能够逐渐形成体系，而它，是帮助你融会贯通和保证记忆的最佳方法。请不要在开始时担心这一点，只有具备一定量的积累才能自然而然地孕育出体系来。</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;极〇时间的专栏课，学习中&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;极〇时间专栏课，学习中&lt;/p&gt;</summary>
     
     
     
@@ -139,8 +158,8 @@
   
   <entry>
     <title>关于浏览器的沉浸阅读器</title>
-    <link href="https://hoverlod.github.io/2022/01/29/%E5%85%B3%E4%BA%8Eedge%E6%B2%89%E6%B5%B8%E9%98%85%E8%AF%BB%E5%99%A8/"/>
-    <id>https://hoverlod.github.io/2022/01/29/%E5%85%B3%E4%BA%8Eedge%E6%B2%89%E6%B5%B8%E9%98%85%E8%AF%BB%E5%99%A8/</id>
+    <link href="https://hoverlod.github.io/2022/01/29/%E5%85%B3%E4%BA%8E%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E6%B2%89%E6%B5%B8%E9%98%85%E8%AF%BB%E5%99%A8/"/>
+    <id>https://hoverlod.github.io/2022/01/29/%E5%85%B3%E4%BA%8E%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E6%B2%89%E6%B5%B8%E9%98%85%E8%AF%BB%E5%99%A8/</id>
     <published>2022-01-28T17:33:52.000Z</published>
     <updated>2022-01-29T00:54:02.710Z</updated>
     
@@ -187,8 +206,8 @@
   
   <entry>
     <title>日语学习 N5</title>
-    <link href="https://hoverlod.github.io/2022/01/26/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0-N5/"/>
-    <id>https://hoverlod.github.io/2022/01/26/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0-N5/</id>
+    <link href="https://hoverlod.github.io/2022/01/26/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0-N5%F0%9F%90%B1%E2%80%8D%F0%9F%91%A4/"/>
+    <id>https://hoverlod.github.io/2022/01/26/%E6%97%A5%E8%AF%AD%E5%AD%A6%E4%B9%A0-N5%F0%9F%90%B1%E2%80%8D%F0%9F%91%A4/</id>
     <published>2022-01-26T09:31:47.000Z</published>
     <updated>2022-01-29T00:17:34.157Z</updated>
     
@@ -210,8 +229,8 @@
   
   <entry>
     <title>基础乐理</title>
-    <link href="https://hoverlod.github.io/2022/01/20/%E5%9F%BA%E7%A1%80%E4%B9%90%E7%90%86/"/>
-    <id>https://hoverlod.github.io/2022/01/20/%E5%9F%BA%E7%A1%80%E4%B9%90%E7%90%86/</id>
+    <link href="https://hoverlod.github.io/2022/01/20/%E5%9F%BA%E7%A1%80%E4%B9%90%E7%90%86%F0%9F%90%B1%E2%80%8D%F0%9F%91%A4/"/>
+    <id>https://hoverlod.github.io/2022/01/20/%E5%9F%BA%E7%A1%80%E4%B9%90%E7%90%86%F0%9F%90%B1%E2%80%8D%F0%9F%91%A4/</id>
     <published>2022-01-20T08:47:42.000Z</published>
     <updated>2022-01-26T19:45:24.719Z</updated>
     

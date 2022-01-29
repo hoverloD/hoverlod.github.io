@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-01-29T09:31:32.049Z</updated>
+  <updated>2022-01-29T09:48:14.534Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -21,10 +21,14 @@
     <link href="https://hoverlod.github.io/2022/01/29/to-B-to-C/"/>
     <id>https://hoverlod.github.io/2022/01/29/to-B-to-C/</id>
     <published>2022-01-29T09:31:32.000Z</published>
-    <updated>2022-01-29T09:31:32.049Z</updated>
+    <updated>2022-01-29T09:48:14.534Z</updated>
     
     
     
+    
+    <category term="技术" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="产品" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/%E4%BA%A7%E5%93%81/"/>
     
     
   </entry>
@@ -34,9 +38,9 @@
     <link href="https://hoverlod.github.io/2022/01/29/%E5%9C%A8%EF%BC%9F%E8%BF%9B%E6%9D%A5%E7%A0%B4%E9%98%B2/"/>
     <id>https://hoverlod.github.io/2022/01/29/%E5%9C%A8%EF%BC%9F%E8%BF%9B%E6%9D%A5%E7%A0%B4%E9%98%B2/</id>
     <published>2022-01-29T08:58:06.000Z</published>
-    <updated>2022-01-29T09:17:41.464Z</updated>
+    <updated>2022-01-29T09:49:53.789Z</updated>
     
-    <content type="html"><![CDATA[<p>无情的沙漠~ 谁来带我走出这样无情的沙漠</p><span id="more"></span><p><img src="https://gitee.com/hoverload/fig-bed/raw/master/%E5%8D%B1%E6%9C%BA%E5%8D%B1%E6%9C%BA%E5%8D%B1%E6%9C%BA.jpg" alt="实际：危机危机危机"></p>]]></content>
+    <content type="html"><![CDATA[<p>无情的沙漠~ 谁来带我走出这样无情的沙漠</p><span id="more"></span><p><img src="https://gitee.com/hoverload/fig-bed/raw/master/%E5%8D%B1%E6%9C%BA%E5%8D%B1%E6%9C%BA%E5%8D%B1%E6%9C%BA.jpg"></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;无情的沙漠~ 谁来带我走出这样无情的沙漠&lt;/p&gt;</summary>

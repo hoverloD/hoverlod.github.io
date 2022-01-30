@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-01-29T20:03:17.352Z</updated>
+  <updated>2022-01-30T11:24:02.220Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ssl和ssh</title>
+    <link href="https://hoverlod.github.io/2022/01/30/ssl%E5%92%8Cssh/"/>
+    <id>https://hoverlod.github.io/2022/01/30/ssl%E5%92%8Cssh/</id>
+    <published>2022-01-30T11:12:09.000Z</published>
+    <updated>2022-01-30T11:24:02.220Z</updated>
+    
+    <content type="html"><![CDATA[<p>SSH 即Secure Shell，SSL即Secure Socket Layer。两者缩写比较类似，又都是应用层协议，该如何区分呢</p><span id="more"></span><p>SSH协议：连接远程主机，在XShell、数据库软件能看到</p><p>SSL协议：https的s、git常见的报错<code>OpenSSL SSL_read- Connection was reset, errno 10054</code>。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;SSH 即Secure Shell，SSL即Secure Socket Layer。两者缩写比较类似，又都是应用层协议，该如何区分呢&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="ssh" scheme="https://hoverlod.github.io/tags/ssh/"/>
+    
+    <category term="ssl" scheme="https://hoverlod.github.io/tags/ssl/"/>
+    
+    <category term="通信协议" scheme="https://hoverlod.github.io/tags/%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>To B &amp; to C</title>

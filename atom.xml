@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-01-30T11:24:02.220Z</updated>
+  <updated>2022-01-31T20:49:51.534Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://hoverlod.github.io/2022/01/30/ssl%E5%92%8Cssh/"/>
     <id>https://hoverlod.github.io/2022/01/30/ssl%E5%92%8Cssh/</id>
     <published>2022-01-30T11:12:09.000Z</published>
-    <updated>2022-01-30T11:24:02.220Z</updated>
+    <updated>2022-01-31T20:49:51.534Z</updated>
     
-    <content type="html"><![CDATA[<p>SSH 即Secure Shell，SSL即Secure Socket Layer。两者缩写比较类似，又都是应用层协议，该如何区分呢</p><span id="more"></span><p>SSH协议：连接远程主机，在XShell、数据库软件能看到</p><p>SSL协议：https的s、git常见的报错<code>OpenSSL SSL_read- Connection was reset, errno 10054</code>。</p>]]></content>
+    <content type="html"><![CDATA[<p>SSH 即Secure Shell，SSL即Secure Socket Layer。两者缩写比较类似，又都是应用层协议，该如何区分呢</p><span id="more"></span><h2 id="SSH协议"><a href="#SSH协议" class="headerlink" title="SSH协议"></a>SSH协议</h2><p>连接远程主机，在XShell、数据库软件能看到</p><p><a href="https://www.cnblogs.com/zmlctt/p/3946860.html">SSH协议详解 - zmlctt - 博客园 (cnblogs.com)</a></p><h2 id="SSL协议"><a href="#SSL协议" class="headerlink" title="SSL协议"></a>SSL协议</h2><p>https的s、git常见的报错<code>OpenSSL SSL_read- Connection was reset, errno 10054</code>。</p><p><a href="https://zh.wikipedia.org/zh-cn/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE">超文本传输安全协议  (wikipedia.org)</a></p><p><a href="https://www.jianshu.com/p/41f7ae43e37b">浅谈HTTPS（SSL/TLS）原理</a></p><p><a href="https://www.cnblogs.com/lvhuayan/p/14538106.html">Git报错解决 OpenSSL SSL_read: Connection was reset, errno 10054 (cnblogs.com)</a></p><p>一般是这是因为服务器的SSL证书没有经过第三方机构的签署，所以才报错</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;SSH 即Secure Shell，SSL即Secure Socket Layer。两者缩写比较类似，又都是应用层协议，该如何区分呢&lt;/p&gt;</summary>

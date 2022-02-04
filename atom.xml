@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-02-04T07:46:33.754Z</updated>
+  <updated>2022-02-04T07:56:56.873Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://hoverlod.github.io/2022/02/04/%E5%85%A8%E5%B1%8F%E6%BB%9A%E5%8A%A8/"/>
     <id>https://hoverlod.github.io/2022/02/04/%E5%85%A8%E5%B1%8F%E6%BB%9A%E5%8A%A8/</id>
     <published>2022-02-04T07:41:19.000Z</published>
-    <updated>2022-02-04T07:46:33.754Z</updated>
+    <updated>2022-02-04T07:56:56.873Z</updated>
     
-    <content type="html"><![CDATA[<p>只是备忘啥是全屏滚动</p><span id="more"></span><p>demo：</p><p><a href="https://www.dowebok.com/demo/2014/78/#page1">用fullPage.js制作百度百科史记2013效果演示_dowebok</a></p><p><a href="https://www.dowebok.com/demo/2014/80/#page1">用fullPage.js制作搜狐快站页面效果演示_dowebok</a></p><p>hash方式参数，视觉效果像全屏轮播图/PPT。demo随便找的，比较丑。</p><p><img src="https://gitee.com/hoverload/fig-bed/raw/master/image-20220204154201373.png" alt="image-20220204154201373"></p>]]></content>
+    <content type="html"><![CDATA[<p>只是备忘啥是全屏滚动</p><span id="more"></span><p>demo：</p><p><a href="https://www.dowebok.com/demo/2014/78/#page1">用fullPage.js制作百度百科史记2013效果演示_dowebok</a></p><p><a href="https://www.dowebok.com/demo/2014/80/#page1">用fullPage.js制作搜狐快站页面效果演示_dowebok</a></p><p>视觉效果像全屏轮播图/PPT。demo随便找的，比较丑。另外想不通它用history路由为啥还在pageX前面加个#号，乍一看还以为hash。history一大片污染了浏览历史。</p><p><img src="https://gitee.com/hoverload/fig-bed/raw/master/image-20220204154201373.png" alt="image-20220204154201373"></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;只是备忘啥是全屏滚动&lt;/p&gt;</summary>

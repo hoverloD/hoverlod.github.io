@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-02-22T05:23:11.526Z</updated>
+  <updated>2022-02-22T10:55:02.356Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -21,13 +21,12 @@
     <link href="https://hoverlod.github.io/2022/02/22/%E9%9A%90%E6%B0%B4%E5%8D%B0/"/>
     <id>https://hoverlod.github.io/2022/02/22/%E9%9A%90%E6%B0%B4%E5%8D%B0/</id>
     <published>2022-02-22T04:54:19.000Z</published>
-    <updated>2022-02-22T05:23:11.526Z</updated>
+    <updated>2022-02-22T10:55:02.356Z</updated>
     
-    <content type="html"><![CDATA[<p>水印在空域、频域或时域添加肉眼难以识别的标识</p><p>数字水印技术可以给数字载体在空域、频域或时域添加水印，但不影响载体的使用、不易被人的知觉系统察觉。</p><p>现实中就我听说过的例子：阿里月饼门（频域），还有最近蓝鸟上在传的豆瓣#fefefe小字（看描述也没啥技术含量，其实我去小组那里找了没找到，感觉是假的）。</p><span id="more"></span><p>看完攒的文章后记录一下收获。（这周没空）</p>]]></content>
+    <content type="html"><![CDATA[<p>数字水印技术可以给数字载体在空域、频域或时域添加水印，但不影响载体的使用、不易被人的知觉系统察觉。</p><p>现实中就我听说过的例子：阿里月饼门（频域），还有最近蓝鸟上在传的豆瓣#fefefe小字（看描述也没啥技术含量，其实我去小组那里找了没找到，感觉是假的）。</p><span id="more"></span><p>看完攒的文章后记录一下收获。（这周没空）</p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;水印在空域、频域或时域添加肉眼难以识别的标识&lt;/p&gt;
-&lt;p&gt;数字水印技术可以给数字载体在空域、频域或时域添加水印，但不影响载体的使用、不易被人的知觉系统察觉。&lt;/p&gt;
+    <summary type="html">&lt;p&gt;数字水印技术可以给数字载体在空域、频域或时域添加水印，但不影响载体的使用、不易被人的知觉系统察觉。&lt;/p&gt;
 &lt;p&gt;现实中就我听说过的例子：阿里月饼门（频域），还有最近蓝鸟上在传的豆瓣#fefefe小字（看描述也没啥技术含量，其实我去小组那里找了没找到，感觉是假的）。&lt;/p&gt;</summary>
     
     

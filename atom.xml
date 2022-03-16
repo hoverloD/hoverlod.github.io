@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-03-16T16:39:31.800Z</updated>
+  <updated>2022-03-16T16:47:11.432Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://hoverlod.github.io/2022/03/17/%E4%BD%BF%E7%94%A8Unsplash%E5%9B%BE%E5%BA%93/"/>
     <id>https://hoverlod.github.io/2022/03/17/%E4%BD%BF%E7%94%A8Unsplash%E5%9B%BE%E5%BA%93/</id>
     <published>2022-03-16T16:39:31.000Z</published>
-    <updated>2022-03-16T16:39:31.800Z</updated>
+    <updated>2022-03-16T16:47:11.432Z</updated>
     
     <content type="html"><![CDATA[<p>Unsplash 是最著名的免费图库，他们不仅提供了 API 给开发者使用，也提供了更便利的 URL 方式来调用图片。</p><span id="more"></span><p>比如熊猫小学的壁纸彩蛋对应的 URL 是 <a href="https://source.unsplash.com/random/1920%C3%971080?creative,abstract">https://source.unsplash.com/random/1920×1080?creative,abstract</a> ，即在 Unsplash 图库里搜索 creative 和 abstract 这两个关键词，要求系统随机返回一张 1920×1080 px 大小的图片。</p><hr><h2 id="使用-URL-调用-Unsplash-图库的使用场景"><a href="#使用-URL-调用-Unsplash-图库的使用场景" class="headerlink" title="使用 URL 调用 Unsplash 图库的使用场景"></a>使用 URL 调用 Unsplash 图库的使用场景</h2><p>最常见的用法是在 WordPress 模板、Figma 图片插件等场合下，用 &lt;img src=”C:\WINDOWS\system32\”URL”&gt;”来随机显示占位图片。一般的占位图片要么单调、要么丑陋，利用 Unsplash 庞大的图库和搜索功能，可以实现各种不同风格的占位图片。</p><p><img src="https://source.unsplash.com/random/1920%C3%971080?creative,abstract" alt="从Unsplash随机抓取一张图片"></p><hr><h2 id="用-URL-方式调用-Unsplash-图库的常用参数包括："><a href="#用-URL-方式调用-Unsplash-图库的常用参数包括：" class="headerlink" title="用 URL 方式调用 Unsplash 图库的常用参数包括："></a>用 URL 方式调用 Unsplash 图库的常用参数包括：</h2><p><strong>返回随机图片</strong><br><a href="https://source.unsplash.com/random">https://source.unsplash.com/random</a></p><p><strong>指定返回的图片大小</strong><br><a href="https://source.unsplash.com/random/1920x1080">https://source.unsplash.com/random/1920×1080</a></p><p><strong>搜索指定用户</strong><br><a href="https://source.unsplash.com/user/jjying">https://source.unsplash.com/user/jjying</a></p><p><strong>搜索特定关键词</strong><br><a href="https://source.unsplash.com/random/?sunny,day">https://source.unsplash.com/random/?sunny,day</a></p>]]></content>
     

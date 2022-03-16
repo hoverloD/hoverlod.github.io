@@ -6,7 +6,7 @@
   <link href="https://hoverlod.github.io/atom.xml" rel="self"/>
   
   <link href="https://hoverlod.github.io/"/>
-  <updated>2022-03-08T08:20:29.924Z</updated>
+  <updated>2022-03-16T16:39:31.800Z</updated>
   <id>https://hoverlod.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用Unsplash图库</title>
+    <link href="https://hoverlod.github.io/2022/03/17/%E4%BD%BF%E7%94%A8Unsplash%E5%9B%BE%E5%BA%93/"/>
+    <id>https://hoverlod.github.io/2022/03/17/%E4%BD%BF%E7%94%A8Unsplash%E5%9B%BE%E5%BA%93/</id>
+    <published>2022-03-16T16:39:31.000Z</published>
+    <updated>2022-03-16T16:39:31.800Z</updated>
+    
+    <content type="html"><![CDATA[<p>Unsplash 是最著名的免费图库，他们不仅提供了 API 给开发者使用，也提供了更便利的 URL 方式来调用图片。</p><span id="more"></span><p>比如熊猫小学的壁纸彩蛋对应的 URL 是 <a href="https://source.unsplash.com/random/1920%C3%971080?creative,abstract">https://source.unsplash.com/random/1920×1080?creative,abstract</a> ，即在 Unsplash 图库里搜索 creative 和 abstract 这两个关键词，要求系统随机返回一张 1920×1080 px 大小的图片。</p><hr><h2 id="使用-URL-调用-Unsplash-图库的使用场景"><a href="#使用-URL-调用-Unsplash-图库的使用场景" class="headerlink" title="使用 URL 调用 Unsplash 图库的使用场景"></a>使用 URL 调用 Unsplash 图库的使用场景</h2><p>最常见的用法是在 WordPress 模板、Figma 图片插件等场合下，用 &lt;img src=”C:\WINDOWS\system32\”URL”&gt;”来随机显示占位图片。一般的占位图片要么单调、要么丑陋，利用 Unsplash 庞大的图库和搜索功能，可以实现各种不同风格的占位图片。</p><p><img src="https://source.unsplash.com/random/1920%C3%971080?creative,abstract" alt="从Unsplash随机抓取一张图片"></p><hr><h2 id="用-URL-方式调用-Unsplash-图库的常用参数包括："><a href="#用-URL-方式调用-Unsplash-图库的常用参数包括：" class="headerlink" title="用 URL 方式调用 Unsplash 图库的常用参数包括："></a>用 URL 方式调用 Unsplash 图库的常用参数包括：</h2><p><strong>返回随机图片</strong><br><a href="https://source.unsplash.com/random">https://source.unsplash.com/random</a></p><p><strong>指定返回的图片大小</strong><br><a href="https://source.unsplash.com/random/1920x1080">https://source.unsplash.com/random/1920×1080</a></p><p><strong>搜索指定用户</strong><br><a href="https://source.unsplash.com/user/jjying">https://source.unsplash.com/user/jjying</a></p><p><strong>搜索特定关键词</strong><br><a href="https://source.unsplash.com/random/?sunny,day">https://source.unsplash.com/random/?sunny,day</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Unsplash 是最著名的免费图库，他们不仅提供了 API 给开发者使用，也提供了更便利的 URL 方式来调用图片。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="blog" scheme="https://hoverlod.github.io/tags/blog/"/>
+    
+    <category term="图库" scheme="https://hoverlod.github.io/tags/%E5%9B%BE%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>What to Do When You’re Stuck in the Survival Zone</title>
@@ -459,32 +482,6 @@
     
     
     <category term="乐理" scheme="https://hoverlod.github.io/tags/%E4%B9%90%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JSON必知必会</title>
-    <link href="https://hoverlod.github.io/2022/01/15/JSON%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/"/>
-    <id>https://hoverlod.github.io/2022/01/15/JSON%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A/</id>
-    <published>2022-01-14T21:44:58.000Z</published>
-    <updated>2022-01-28T17:37:02.906Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>概要</strong></p><p>前三章 JSON语法<br>第四章 Schema做一致性检验<br>第五章 安全问题<br>第六章 Ajax，API，跨域和JSON-P</p><p>— 下面几章就很浅了 —</p><p>第七章 jQuery，Angular框架<br>第八章 NoSQL<br>第九章 服务端的JSON<br>第十章 JSON作为配置文件</p><span id="more"></span><h2 id="JSON语法"><a href="#JSON语法" class="headerlink" title="JSON语法"></a>JSON语法</h2><p>JSON语法是JavaScript的真子集，但它是独立于编程语言的一种<strong>数据交换格式</strong>。</p><p>数据交换格式的核心是数据，所以 JSON 中并不会涉及 JavaScript 对象字面量中的函数。JSON 所基于的 JavaScript 对象字面量单纯指对象字面量及其属性的语法表示。这种属性表示方法也就是通过<strong>名称 - 值对</strong>来实现的。</p><p>名称只能用双引号包裹，里面名称甚至可以放单引号。但是 ↓</p><h4 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h4><p>为了获得<strong>最大可移植性</strong>，应尽可能避免使用空格或特殊字符。 JSON 中的名称 - 值对的名称如果被系统作为对象装入内存的话，将会成为“属性”。在部分系统中，属性名可以包含下划线或数字，但是大多数情况下最好是使用英文字母 A<del>Z 或 a</del>z。</p><p>——我选择驼峰</p><h4 id="JSON对象"><a href="#JSON对象" class="headerlink" title="JSON对象"></a>JSON对象</h4><p>有意思所以。。</p><p><img src="https://gitee.com/hoverload/fig-bed/raw/master/json%E9%92%A6%E7%82%B9.png" alt="json钦点"></p><h4 id="注意逗号"><a href="#注意逗号" class="headerlink" title="注意逗号"></a>注意逗号</h4><blockquote><p>如果你在名称 - 值对列表的结尾处加上一个逗号，你给机器的指令是“一个新部分的开始”，但是后面什么都没有。</p></blockquote><p><img src="https://gitee.com/hoverload/fig-bed/raw/master/json%E6%B3%A8%E6%84%8F%E9%80%97%E5%8F%B7.png" alt="json注意逗号"></p><h4 id="JSON的媒体类型"><a href="#JSON的媒体类型" class="headerlink" title="JSON的媒体类型"></a>JSON的媒体类型</h4><p>当你在传递数据时，需要提前告知接收方数据是什么类型，这就会涉及<strong>媒体类型</strong>。媒体类型也有一些你可能听过的其他称呼，如“互联网媒体类型”“内容类型”或“MIME 类型”。它使用“类型 / 子类型”这种格式来表示，比如你可能见过的 text/html。</p><p>JSON 的 MIME 类型是 application/json。</p><p>互联网数字分配机构（Internet Assigned Numbers Authority，IANA）维护着一个包含全部媒体类型的列表（<a href="http://www.iana.org/assignments/media-types/media-types.xhtml%EF%BC%89%E3%80%82">http://www.iana.org/assignments/media-types/media-types.xhtml）。</a></p><h2 id="JSON-Schema"><a href="#JSON-Schema" class="headerlink" title="JSON Schema"></a>JSON Schema</h2><p>🔗<a href="https://json-schema.apifox.cn/">JSON Schema 规范（中文版） (apifox.cn)</a></p><p>JSON Schema （schema意为格式）可以帮助回答下列问题：</p><ul><li>值的数据类型是否正确？ 可以具体规定一个值是数字、字符串等类型。</li><li>是否包含所需要的数据？ 可以具体规定哪些数据是需要的，哪些是不需要的。</li><li>值的形式是不是我需要的？ 可以指定范围、最小值和最大值</li></ul><p>一个JSON Schema 文件，它就是JSON格式的。</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;$schema&quot;</span>: <span class="string">&quot;http://json-schema.org/draft-04/schema#&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;title&quot;</span>: <span class="string">&quot;Cat&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;properties&quot;</span>: &#123;</span><br><span class="line">    <span class="attr">&quot;name&quot;</span>: &#123;</span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;string&quot;</span></span><br><span class="line">      <span class="string">&quot;minLength&quot;</span>: <span class="number">3</span>,</span><br><span class="line">      <span class="attr">&quot;maxLength&quot;</span> : <span class="number">20</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;age&quot;</span>: &#123;</span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;number&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;description&quot;</span>: <span class="string">&quot;Your cat&#x27;s age in years.&quot;</span></span><br><span class="line">      <span class="string">&quot;minimum&quot;</span> : <span class="number">0</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">&quot;declawed&quot;</span>: &#123;</span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;boolean&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">&quot;required&quot;</span>: [</span><br><span class="line">    <span class="string">&quot;name&quot;</span>,</span><br><span class="line">    <span class="string">&quot;age&quot;</span>,</span><br><span class="line">    <span class="string">&quot;declawed&quot;</span></span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>本章提供的例子只是简介，是冰山一角。JSON Schema 还支持正则表达式（一种字符形式，比如电子邮件地址的格式）以及枚举类型（一个包含所有可能值的列表）。如果你希望深入掌握 JSON Schema，可以访问下面的链接，了解相关规范：</p><ul><li>JSON Schema 主页（<a href="http://json-schema.org/%EF%BC%89">http://json-schema.org/）</a></li><li>JSON Schema 验证规范（<a href="http://json-schema.org/latest/json-schema-validation">http://json-schema.org/latest/json-schema-validation</a>. html）</li></ul><p>附加一个Linter知识：</p><p>是做<strong>语法</strong>验证的，而schema是检测<strong>语义</strong>是否合法</p><p><a href="https://zhuanlan.zhihu.com/p/34656263">JS Linter 进化史 - 知乎 (zhihu.com)</a></p><h2 id="JSON安全"><a href="#JSON安全" class="headerlink" title="JSON安全"></a>JSON安全</h2><p>坦白：并没做攻防实践🥺</p><h4 id="跨站请求伪造"><a href="#跨站请求伪造" class="headerlink" title="跨站请求伪造"></a>跨站请求伪造</h4><p>跨站请求伪造，即 CSRF（cross-site request forgery，读作 sea-surf），是一种 利用站点对用户浏览器信任而发起攻击的方式。CSRF 漏洞已经存在了很长时间，远比 JSON 出现得早。</p><h4 id="跨站脚本攻击"><a href="#跨站脚本攻击" class="headerlink" title="跨站脚本攻击"></a>跨站脚本攻击</h4><p>注入攻击：依赖于将数据注入到 Web 应用程序以方便恶意数据执行或编译的攻击</p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><ul><li>不要使用顶级数组。顶级数组是合法的 JavaScript 脚本，它们可以用<code>&lt;script&gt;</code>标签链接并使用。而如果是个对象，就不会被成功解析。</li><li>对于不想公开的资源，仅允许使用 HTTP POST 方法请求，而不是 GET方法。GET 方法可以通过 URL 来请求，甚至可以放在<code>&lt;script&gt;</code>标签中。</li><li>使用 JSON.parse() 来代替 eval()。eval() 函数会将传入的字符串编译并执行，这会让你的代码易被攻击。应仅使用 JSON.parse() 来解析 JSON 数据。</li></ul><h2 id="零碎"><a href="#零碎" class="headerlink" title="零碎"></a>零碎</h2><h3 id="Web-API"><a href="#Web-API" class="headerlink" title="Web API"></a>Web API</h3><p>🔗<a href="https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Client-side_web_APIs/Introduction">Web API简介 - 学习 Web 开发 | MDN (mozilla.org)</a></p><p>Web API的服务内容和普通网站差不多，但是它并不是用来拿给人看的🐶</p><p>Web API 是通过 HTTP 服务进行交互的一组指令和标准。这些交互可以包括创建、读取、更新、删除（CRUD）等操作，且 Web API 都会有一份说明，概述如何使用这些指令和标准。 （是一个对诸如 HTML 或 JSON 文档等资源进行请求和响应的系统。这些文档使用URL经由 HTTP请求。）</p><h3 id="Angular"><a href="#Angular" class="headerlink" title="Angular"></a>Angular</h3><p>适合MVC的框架，和React、Vue不同，提供了更完整的解决方案。</p><h3 id="NoSQL"><a href="#NoSQL" class="headerlink" title="NoSQL"></a>NoSQL</h3><p>NoSQL，顾名思义，它不是一种关系型数据库。我们不能使用 SQL 从关联在一起的数据库表格的行和列中获取数据。</p><p>NoSQL 数据库的一个例子是键值对存储。键值对存储模型将数据简化为键值对。如果要将英语词典编入数据库，那么用键值对存储非常合适。每一个单词就是一个键，单词对应的定义就是键的值。对于比较简单的数据结构来说，使用这种数据库比使用传统的关系型数据库要合适。（如果想将一个地址的省、市、区、街道和邮政编码等数据相关联，该怎么办？如果需要这种关系，那最好还是使用关系型模型，毕竟将复杂的关系用一个文档来表示还是很有难度的。）</p><h3 id="服务端JSON"><a href="#服务端JSON" class="headerlink" title="服务端JSON"></a>服务端JSON</h3><p>ASP、PHP的：序列化，反序列化，请求json</p><p>发送JSON HTTP请求的其他方式：Ruby on Rails，Java，Node.js</p><h3 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h3><p>软件中经常会有配置文件或设置文件，它让我们可以不必重新编译就能修改设置。配置文件的格式有很多，有 INI 和 XML 等。每种格式都有优点和缺点。</p><p>现实中一个使用 JSON 作为配置文件的极佳例子就是 Node.js 默认的 JavaScript 包管理器：npm（<em>文件名称为 package.json。该文件包含了每个包的具体信息，如名称、版本、作者、贡献者、依赖、脚本以及许可</em>）。当然，它也被 AngularJS 和 jQuery 等其他框架使用。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;strong&gt;概要&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;前三章 JSON语法&lt;br&gt;第四章 Schema做一致性检验&lt;br&gt;第五章 安全问题&lt;br&gt;第六章 Ajax，API，跨域和JSON-P&lt;/p&gt;
-&lt;p&gt;— 下面几章就很浅了 —&lt;/p&gt;
-&lt;p&gt;第七章 jQuery，Angular框架&lt;br&gt;第八章 NoSQL&lt;br&gt;第九章 服务端的JSON&lt;br&gt;第十章 JSON作为配置文件&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="技术" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    <category term="读书笔记" scheme="https://hoverlod.github.io/categories/%E6%8A%80%E6%9C%AF/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="json" scheme="https://hoverlod.github.io/tags/json/"/>
     
   </entry>
   

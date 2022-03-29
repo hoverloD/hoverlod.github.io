@@ -10754,7 +10754,7 @@ body > .section {
   height: 100% !important;
 }
 .button.is-transparent {
-  color: inherit;
+  color: #36648b;
   background: transparent;
   border-color: transparent;
 }

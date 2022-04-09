@@ -369,12 +369,12 @@
     <link href="https://hoverlod.github.io/2022/01/29/%E5%B8%AEzz%E6%90%ADgithub%E5%8D%9A%E5%AE%A2/"/>
     <id>https://hoverlod.github.io/2022/01/29/%E5%B8%AEzz%E6%90%ADgithub%E5%8D%9A%E5%AE%A2/</id>
     <published>2022-01-28T20:04:30.000Z</published>
-    <updated>2022-01-28T21:37:53.402Z</updated>
+    <updated>2022-04-09T05:54:14.179Z</updated>
     
-    <content type="html"><![CDATA[<p>博客基本配好了，给zz也整个一样的，虽然她自个不写(*￣3￣)</p><span id="more"></span><p>博客本身倒没什么，改改配置文件，生成静态页面，就等着把deploy那个文件夹上传了。</p><p>要来github账号建库：<code>zz.github.io</code>，怎么把我本地的东西传上去？直接<code>hexo d</code>报403没权限，用协作吧。发了协作邀请，换号发现没收到（过一会发现发到邮件去了，没想到吧），还重复了两次。总之用协作身份上传了。</p><p>没想到光这样不够，需要去setting选好内容是main分支然后保存，下面还必须选一个theme（忘掉了，老了），然后就会多出一个jekyll的配置文件，这文件当然是多余的，而且影响解析了。把它删掉，这时候网页才配好了。成果：<a href="https://oblivate1.github.io/">zz’s blog (oblivate1.github.io)</a></p>]]></content>
+    <content type="html"><![CDATA[<p>博客基本配好了，给zz也整个一样的，虽然她自个不写</p><span id="more"></span><p>博客本身倒没什么，改改配置文件，生成静态页面，就等着把deploy那个文件夹上传了。</p><p>要来github账号建库：<code>zz.github.io</code>，怎么把我本地的东西传上去？直接<code>hexo d</code>报403没权限，用协作吧。发了协作邀请，换号发现没收到（后来发现发到邮件去了，没想到吧），还重复了两次。总之用协作身份上传了。</p><p>没想到光这样不够，需要去setting选好内容是main分支然后保存，下面还必须选一个theme（忘掉了），然后就会多出一个jekyll的配置文件，这文件当然是多余的，把它删掉，这时候网页才配好了。成果：<a href="https://oblivate1.github.io/">zz’s blog (oblivate1.github.io)</a></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;博客基本配好了，给zz也整个一样的，虽然她自个不写(*￣3￣)&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;博客基本配好了，给zz也整个一样的，虽然她自个不写&lt;/p&gt;</summary>
     
     
     

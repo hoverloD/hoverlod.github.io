@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hoverload&#39;s blog</title>
-    <link>https://hoverlod.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on hoverload&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Apr 2025 05:15:04 +0800</lastBuildDate>
-    <atom:link href="https://hoverlod.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Apr 2025 20:19:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;常用id：hoverload，可以简称dd；&lt;/li&gt;&#xA;&lt;li&gt;前端开发，后端略懂，啥都想学；&lt;/li&gt;&#xA;&lt;li&gt;RSS信徒、独立博客爱好者；&lt;/li&gt;&#xA;&lt;li&gt;仓鼠癖，喜欢囤积电子书和游戏；&lt;/li&gt;&#xA;&lt;li&gt;每年的flag都是学语言（自然语言and编程语言）……&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于blog&#34;&gt;关于Blog&lt;/h2&gt;&#xA;&lt;p&gt;本人爱做笔记，大学也在各平台写过blog，记一些有的没的。工作后没了大把的时间，开始在不同的软件跟设备上东记西记，目前由于三分钟热度，放弃的课题堆积成山，最终决定回到自己喜欢的形式，希望持之以恒地记下去。&lt;/p&gt;&#xA;&lt;p&gt;博客内容大概是技术学习、文章摘录、日常吐槽，简短的内容会偏多些。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tailwind测试</title>
+      <link>http://localhost:1313/post/tailwind%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Sun, 20 Apr 2025 20:19:50 +0800</pubDate>
+      <guid>http://localhost:1313/post/tailwind%E6%B5%8B%E8%AF%95/</guid>
+      <description>之前就很好奇，md渲染出来的页面里可以放html、自定义样式吗？试一下</description>
+    </item>
     <item>
       <title>Hello World</title>
-      <link>https://hoverlod.github.io/post/hello-world/</link>
+      <link>http://localhost:1313/post/hello-world/</link>
       <pubDate>Sun, 20 Apr 2025 05:15:04 +0800</pubDate>
-      <guid>https://hoverlod.github.io/post/hello-world/</guid>
+      <guid>http://localhost:1313/post/hello-world/</guid>
       <description>&lt;p&gt;工作后就没更新过大学的blog，难得双休想修缮一下，看到后跟黑历史一样，干脆重新开一个吧= =，放文章摘抄和学习笔记。&lt;/p&gt;</description>
     </item>
   </channel>

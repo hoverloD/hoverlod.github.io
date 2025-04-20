@@ -20,12 +20,12 @@
   />
 
   
-  <title>Hello World - hoverload&#39;s blog</title>
+  <title>Tailwind测试 - hoverload&#39;s blog</title>
 
   
   <meta name="theme-color" />
 
-  <meta name="description" content="工作后就没更新过大学的blog，难得双休想修缮一下，看到后跟黑历史一样，干脆重新开一个吧= =，放文章摘抄和学习笔记。" />
+  <meta name="description" content="之前就很好奇，md渲染出来的页面里可以放html、自定义样式吗？试一下" />
   <meta name="author" content="hoverload" /><link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
 
   
@@ -152,16 +152,22 @@
       class="prose prose-neutral dark:prose-invert relative mx-auto min-h-[calc(100vh-9rem)] max-w-(--w) px-8 pt-14 pb-16"
     ><article>
   <header class="mb-14">
-    <h1 class="my-0! pb-2.5">Hello World</h1><div class="text-xs antialiased opacity-60"><time>Apr 20, 2025</time></div></header>
+    <h1 class="my-0! pb-2.5">Tailwind测试</h1><div class="text-xs antialiased opacity-60"><time>Apr 20, 2025</time></div></header>
 
-  <section><p>工作后就没更新过大学的blog，难得双休想修缮一下，看到后跟黑历史一样，干脆重新开一个吧= =，放文章摘抄和学习笔记。</p>
-</section>
+  <section><p>之前就很好奇，md渲染出来的页面里可以放html、自定义样式吗？查了下资料在config加配置就可以了：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#75715e"># needed to  render raw HTML (e.g. &lt;sub&gt;, &lt;sup&gt;, &lt;kbd&gt;, &lt;mark&gt;) </span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">markup</span>]  
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">goldmark</span>]  
+</span></span><span style="display:flex;"><span>    [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">goldmark</span>.<span style="color:#a6e22e">renderer</span>]  
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">unsafe</span> = <span style="color:#66d9ef">true</span>  
+</span></span></code></pre></div><p>渲染原生样式：<code>&lt;p style=&quot;line-height:50px;border:dashed 1px #0e0;&quot;&gt;This is a test.&lt;/p&gt;</code></p>
+<p style="line-height:50px;border:dashed 1px #0e0;">This is a test.</p>
+<p>如果想渲染Tailwind样式呢？这个主题就是用tailwind开发的，但是直接塞这个html并没有成功渲染
+<code>&lt;div class=&quot;bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500&quot;&gt;GRADIENT&lt;/div&gt;</code></p>
+<div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">GRADIENT</div></section>
+  <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">GRADIENT</div>
 
-  <footer class="mt-12 flex flex-wrap"><a
-      class="mb-1.5 rounded-lg bg-black/[3%] px-5 py-1 no-underline hover:bg-black/[6%] ltr:mr-1.5 rtl:ml-1.5 dark:bg-white/[8%] dark:hover:bg-white/[12%]"
-      href="http://localhost:1313/tags/hugo"
-      >hugo</a
-    ></footer><div class="mt-24" id="disqus_thread"></div>
+  <div class="mt-24" id="disqus_thread"></div>
   <script>
     const disqusShortname = 'hoverlod-github-io';
     const script = document.createElement('script');

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on hoverload&#39;s blog</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://hoverlod.github.io/post/</link>
     <description>Recent content in Posts on hoverload&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 20 Apr 2025 20:19:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hoverlod.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tailwind测试</title>
-      <link>http://localhost:1313/post/tailwind%E6%B5%8B%E8%AF%95/</link>
+      <link>https://hoverlod.github.io/post/tailwind%E6%B5%8B%E8%AF%95/</link>
       <pubDate>Sun, 20 Apr 2025 20:19:50 +0800</pubDate>
-      <guid>http://localhost:1313/post/tailwind%E6%B5%8B%E8%AF%95/</guid>
+      <guid>https://hoverlod.github.io/post/tailwind%E6%B5%8B%E8%AF%95/</guid>
       <description>之前就很好奇，md渲染出来的页面里可以放html、自定义样式吗？试一下</description>
     </item>
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/post/hello-world/</link>
+      <link>https://hoverlod.github.io/post/hello-world/</link>
       <pubDate>Sun, 20 Apr 2025 05:15:04 +0800</pubDate>
-      <guid>http://localhost:1313/post/hello-world/</guid>
+      <guid>https://hoverlod.github.io/post/hello-world/</guid>
       <description>&lt;p&gt;工作后就没更新过大学的blog，难得双休想修缮一下，看到后跟黑历史一样，干脆重新开一个吧= =，放文章摘抄和学习笔记。&lt;/p&gt;</description>
     </item>
   </channel>

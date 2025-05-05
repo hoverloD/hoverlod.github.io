@@ -21,7 +21,8 @@
   background-position: var(--ofs) var(--h), var(--w) var(--ofs);
   background-size: var(--sz) var(--sz);
   background-repeat: no-repeat;
-  background-color: #F6F8D5;
+  background-color: #205781;
+  color: #F6F8D5;
 
   .inner {
     width: var(--w);
@@ -37,13 +38,3 @@
     text-align: center;
   }
 }
-/*body {*/
-/*  height: 100vh;*/
-/*  margin: 0;*/
-/*  display: grid;*/
-/*  place-content: center;*/
-/*  place-items: center;*/
-/*  user-select: none;*/
-/*  -webkit-user-select: none;*/
-/*  cursor: default;*/
-/*}*/

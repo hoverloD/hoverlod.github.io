@@ -48,8 +48,74 @@
   <meta name="theme-color" />
 
   <meta name="description" content="Curved Box Cutouts in CSS – Frontend Masters Blog , shows a trick to create the illusion of an element appended to another with a gap and curved edges at the corners.
+inner只需要加边框，trick在于作者用了两个径向渐变的小背景图，把outer的两个尖角盖掉了。
 
-📌" />
+如果删掉inner元素，可以看到outer实际是这样的。
+
+
+不过既然能这样，那能不能干脆把outer左上角全干掉……会把inner挡住吗
+outline和border的区别：最主要的是outline边框不占用空间，而border是算在盒模型里的。
+
+可以在这放个demo：
+
+📌
+
+    
+        像个便签……
+        五一假期已离我远去……
+    
+
+
+&lt;link href=&#34;curve.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;
+&lt;div class=&#34;outer&#34;&gt;&lt;div class=&#34;inner&#34; onclick=&#34;alert(&#39;貌似可以做个亮暗切换或者拷贝，点赞等功能按钮，或者小框内放个头像&#39;)&#34;&gt;📌&lt;/div&gt;
+&lt;section&gt;
+    &lt;ul&gt;
+        &lt;li&gt;像个便签……&lt;/li&gt;
+        &lt;li&gt;五一假期已离我远去……&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+.outer {
+  margin-top: 20px;
+  width: 375px;
+  aspect-ratio: 1;
+
+  /* border radius */
+  --r: 12px;
+
+  /* width, height, and outline of smaller box */
+  --w: 60px;
+  --h: 60px;
+  --o: 8px;
+
+  /* offset and size of the radial-gradient images */
+  --ofs: calc(-1 * var(--o));
+  --sz: calc(var(--r) &#43; var(--o));
+  --img: radial-gradient(circle at right bottom, transparent var(--r), #faf8f1 var(--r));
+
+  border-radius: var(--r);
+  background-image: var(--img), var(--img);
+  background-position: var(--ofs) var(--h), var(--w) var(--ofs);
+  background-size: var(--sz) var(--sz);
+  background-repeat: no-repeat;
+  background-color: #205781;
+  color: #F6F8D5;
+
+  .inner {
+    width: var(--w);
+    height: var(--h);
+    line-height: var(--h);
+    outline: var(--o) solid #faf8f1;
+    border-radius: inherit;
+    background: #98D2C0;
+    cursor: pointer;
+    &amp;:hover {
+      background-color: #4F959D;
+    }
+    text-align: center;
+  }
+}
+" />
   <meta name="author" content="hoverload" /><link rel="preload stylesheet" as="style" href="https://hoverlod.github.io/main.min.css" />
 
   
@@ -78,15 +144,17 @@
   <meta name="generator" content="Hugo 0.146.5">
   <meta itemprop="name" content="Curved Box Cutouts in CSS">
   <meta itemprop="description" content="Curved Box Cutouts in CSS – Frontend Masters Blog , shows a trick to create the illusion of an element appended to another with a gap and curved edges at the corners.
-📌">
+inner只需要加边框，trick在于作者用了两个径向渐变的小背景图，把outer的两个尖角盖掉了。 如果删掉inner元素，可以看到outer实际是这样的。 不过既然能这样，那能不能干脆把outer左上角全干掉……会把inner挡住吗 outline和border的区别：最主要的是outline边框不占用空间，而border是算在盒模型里的。 可以在这放个demo：
+📌 像个便签…… 五一假期已离我远去…… &lt;link href=&#34;curve.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt; &lt;div class=&#34;outer&#34;&gt;&lt;div class=&#34;inner&#34; onclick=&#34;alert(&#39;貌似可以做个亮暗切换或者拷贝，点赞等功能按钮，或者小框内放个头像&#39;)&#34;&gt;📌&lt;/div&gt; &lt;section&gt; &lt;ul&gt; &lt;li&gt;像个便签……&lt;/li&gt; &lt;li&gt;五一假期已离我远去……&lt;/li&gt; &lt;/ul&gt; &lt;/section&gt; &lt;/div&gt; .outer { margin-top: 20px; width: 375px; aspect-ratio: 1; /* border radius */ --r: 12px; /* width, height, and outline of smaller box */ --w: 60px; --h: 60px; --o: 8px; /* offset and size of the radial-gradient images */ --ofs: calc(-1 * var(--o)); --sz: calc(var(--r) &#43; var(--o)); --img: radial-gradient(circle at right bottom, transparent var(--r), #faf8f1 var(--r)); border-radius: var(--r); background-image: var(--img), var(--img); background-position: var(--ofs) var(--h), var(--w) var(--ofs); background-size: var(--sz) var(--sz); background-repeat: no-repeat; background-color: #205781; color: #F6F8D5; .inner { width: var(--w); height: var(--h); line-height: var(--h); outline: var(--o) solid #faf8f1; border-radius: inherit; background: #98D2C0; cursor: pointer; &amp;:hover { background-color: #4F959D; } text-align: center; } }">
   <meta itemprop="datePublished" content="2025-05-06T01:53:49+08:00">
   <meta itemprop="dateModified" content="2025-05-06T01:53:49+08:00">
-  <meta itemprop="wordCount" content="33">
+  <meta itemprop="wordCount" content="156">
   <meta itemprop="keywords" content="Css"><meta property="og:url" content="https://hoverlod.github.io/post/curved-box-cutouts-in-css/">
   <meta property="og:site_name" content="hoverload&#39;s blog">
   <meta property="og:title" content="Curved Box Cutouts in CSS">
   <meta property="og:description" content="Curved Box Cutouts in CSS – Frontend Masters Blog , shows a trick to create the illusion of an element appended to another with a gap and curved edges at the corners.
-📌">
+inner只需要加边框，trick在于作者用了两个径向渐变的小背景图，把outer的两个尖角盖掉了。 如果删掉inner元素，可以看到outer实际是这样的。 不过既然能这样，那能不能干脆把outer左上角全干掉……会把inner挡住吗 outline和border的区别：最主要的是outline边框不占用空间，而border是算在盒模型里的。 可以在这放个demo：
+📌 像个便签…… 五一假期已离我远去…… &lt;link href=&#34;curve.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt; &lt;div class=&#34;outer&#34;&gt;&lt;div class=&#34;inner&#34; onclick=&#34;alert(&#39;貌似可以做个亮暗切换或者拷贝，点赞等功能按钮，或者小框内放个头像&#39;)&#34;&gt;📌&lt;/div&gt; &lt;section&gt; &lt;ul&gt; &lt;li&gt;像个便签……&lt;/li&gt; &lt;li&gt;五一假期已离我远去……&lt;/li&gt; &lt;/ul&gt; &lt;/section&gt; &lt;/div&gt; .outer { margin-top: 20px; width: 375px; aspect-ratio: 1; /* border radius */ --r: 12px; /* width, height, and outline of smaller box */ --w: 60px; --h: 60px; --o: 8px; /* offset and size of the radial-gradient images */ --ofs: calc(-1 * var(--o)); --sz: calc(var(--r) &#43; var(--o)); --img: radial-gradient(circle at right bottom, transparent var(--r), #faf8f1 var(--r)); border-radius: var(--r); background-image: var(--img), var(--img); background-position: var(--ofs) var(--h), var(--w) var(--ofs); background-size: var(--sz) var(--sz); background-repeat: no-repeat; background-color: #205781; color: #F6F8D5; .inner { width: var(--w); height: var(--h); line-height: var(--h); outline: var(--o) solid #faf8f1; border-radius: inherit; background: #98D2C0; cursor: pointer; &amp;:hover { background-color: #4F959D; } text-align: center; } }">
   <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -97,7 +165,8 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Curved Box Cutouts in CSS">
   <meta name="twitter:description" content="Curved Box Cutouts in CSS – Frontend Masters Blog , shows a trick to create the illusion of an element appended to another with a gap and curved edges at the corners.
-📌">
+inner只需要加边框，trick在于作者用了两个径向渐变的小背景图，把outer的两个尖角盖掉了。 如果删掉inner元素，可以看到outer实际是这样的。 不过既然能这样，那能不能干脆把outer左上角全干掉……会把inner挡住吗 outline和border的区别：最主要的是outline边框不占用空间，而border是算在盒模型里的。 可以在这放个demo：
+📌 像个便签…… 五一假期已离我远去…… &lt;link href=&#34;curve.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt; &lt;div class=&#34;outer&#34;&gt;&lt;div class=&#34;inner&#34; onclick=&#34;alert(&#39;貌似可以做个亮暗切换或者拷贝，点赞等功能按钮，或者小框内放个头像&#39;)&#34;&gt;📌&lt;/div&gt; &lt;section&gt; &lt;ul&gt; &lt;li&gt;像个便签……&lt;/li&gt; &lt;li&gt;五一假期已离我远去……&lt;/li&gt; &lt;/ul&gt; &lt;/section&gt; &lt;/div&gt; .outer { margin-top: 20px; width: 375px; aspect-ratio: 1; /* border radius */ --r: 12px; /* width, height, and outline of smaller box */ --w: 60px; --h: 60px; --o: 8px; /* offset and size of the radial-gradient images */ --ofs: calc(-1 * var(--o)); --sz: calc(var(--r) &#43; var(--o)); --img: radial-gradient(circle at right bottom, transparent var(--r), #faf8f1 var(--r)); border-radius: var(--r); background-image: var(--img), var(--img); background-position: var(--ofs) var(--h), var(--w) var(--ofs); background-size: var(--sz) var(--sz); background-repeat: no-repeat; background-color: #205781; color: #F6F8D5; .inner { width: var(--w); height: var(--h); line-height: var(--h); outline: var(--o) solid #faf8f1; border-radius: inherit; background: #98D2C0; cursor: pointer; &amp;:hover { background-color: #4F959D; } text-align: center; } }">
 
   <link rel="canonical" href="https://hoverlod.github.io/post/curved-box-cutouts-in-css/" />
 </head>
@@ -208,9 +277,74 @@
             href="https://hoverlod.github.io/tags/css"
     >css</a
     ></footer><section><p><a href="https://frontendmasters.com/blog/curved-box-cutouts-in-css/">Curved Box Cutouts in CSS – Frontend Masters Blog</a> , shows a trick to create the illusion of an element appended to another with a gap and curved edges at the corners.</p>
+<p>inner只需要加边框，trick在于作者用了两个径向渐变的小背景图，把outer的两个尖角盖掉了。
+<img src="images/Pasted%20image%2020250506024712.png" alt=""></p>
+<p>如果删掉inner元素，可以看到outer实际是这样的。
+<img src="images/Pasted%20image%2020250506023647.png" alt=""></p>
+<ul>
+<li>不过既然能这样，那能不能干脆把outer左上角全干掉……会把inner挡住吗</li>
+<li>outline和border的区别：最主要的是outline边框不占用空间，而border是算在盒模型里的。</li>
+</ul>
+<p>可以在这放个demo：</p>
 <link href="curve.css" rel="stylesheet" type="text/css">
-<div class="outer"><div class="inner" onclick="alert('貌似可以做个亮暗切换或者拷贝，点赞等功能按钮，或者小框内放个头像啥的')">📌</div></div>
+<div class="outer"><div class="inner" onclick="alert('貌似可以做个亮暗切换或者拷贝，点赞等功能按钮，或者小框内放个头像')">📌</div>
+<section>
+    <ul>
+        <li>像个便签……</li>
+        <li>五一假期已离我远去……</li>
+    </ul>
 </section>
+</div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;curve.css&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;outer&#34;</span>&gt;&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;inner&#34;</span> <span style="color:#a6e22e">onclick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;alert(&#39;貌似可以做个亮暗切换或者拷贝，点赞等功能按钮，或者小框内放个头像&#39;)&#34;</span>&gt;📌&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">section</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">li</span>&gt;像个便签……&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">li</span>&gt;五一假期已离我远去……&lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">ul</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">section</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">outer</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">margin-top</span>: <span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">width</span>: <span style="color:#ae81ff">375</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  aspect-ratio: <span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/* border radius */</span>
+</span></span><span style="display:flex;"><span>  --r: <span style="color:#ae81ff">12</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/* width, height, and outline of smaller box */</span>
+</span></span><span style="display:flex;"><span>  --w: <span style="color:#ae81ff">60</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  --h: <span style="color:#ae81ff">60</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>  --o: <span style="color:#ae81ff">8</span><span style="color:#66d9ef">px</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/* offset and size of the radial-gradient images */</span>
+</span></span><span style="display:flex;"><span>  --ofs: calc(<span style="color:#ae81ff">-1</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>o));
+</span></span><span style="display:flex;"><span>  --sz: calc(<span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>r) <span style="color:#f92672">+</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>o));
+</span></span><span style="display:flex;"><span>  --img: radial-gradient(<span style="color:#66d9ef">circle</span> at <span style="color:#66d9ef">right</span> <span style="color:#66d9ef">bottom</span>, <span style="color:#66d9ef">transparent</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>r), <span style="color:#ae81ff">#faf8f1</span> <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>r));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border-radius</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>r);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-image</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>img), <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>img);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-position</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>ofs) <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>h), <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>w) <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>ofs);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-size</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>sz) <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>sz);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-repeat</span>: <span style="color:#66d9ef">no-repeat</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#205781</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">color</span>: <span style="color:#ae81ff">#F6F8D5</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">.inner</span> <span style="color:#960050;background-color:#1e0010">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">width</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>w);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">height</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>h);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">line-height</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>h);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">outline</span>: <span style="color:#a6e22e">var</span>(<span style="color:#f92672">--</span>o) <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">#faf8f1</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">border-radius</span>: <span style="color:#66d9ef">inherit</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">background</span>: <span style="color:#ae81ff">#98D2C0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">cursor</span>: <span style="color:#66d9ef">pointer</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">&amp;:hover</span> <span style="color:#960050;background-color:#1e0010">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">background-color</span>: <span style="color:#ae81ff">#4F959D</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">text-align</span><span style="color:#f92672">:</span> <span style="color:#f92672">center</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">}</span>
+</span></span></code></pre></div></section>
 
   <div class="mt-24" id="disqus_thread"></div>
   <script>

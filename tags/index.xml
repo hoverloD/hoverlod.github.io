@@ -5,14 +5,21 @@
     <link>https://hoverlod.github.io/tags/</link>
     <description>Recent content in Tags on hoverload&#39;s blog</description>
     <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Apr 2025 05:15:04 +0800</lastBuildDate>
+    <language>zh</language>
+    <lastBuildDate>Sun, 20 Apr 2025 20:19:50 +0800</lastBuildDate>
     <atom:link href="https://hoverlod.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>https://hoverlod.github.io/tags/hugo/</link>
-      <pubDate>Sun, 20 Apr 2025 05:15:04 +0800</pubDate>
+      <pubDate>Sun, 20 Apr 2025 20:19:50 +0800</pubDate>
       <guid>https://hoverlod.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tailwind</title>
+      <link>https://hoverlod.github.io/tags/tailwind/</link>
+      <pubDate>Sun, 20 Apr 2025 20:19:50 +0800</pubDate>
+      <guid>https://hoverlod.github.io/tags/tailwind/</guid>
       <description></description>
     </item>
   </channel>

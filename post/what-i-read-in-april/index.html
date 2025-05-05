@@ -89,7 +89,7 @@ Verlet Integration plays an important role in many game physics engines. It’s 
 Have a feeling that I’ve heard these names in college.…">
   <meta itemprop="datePublished" content="2025-05-04T13:12:47+08:00">
   <meta itemprop="dateModified" content="2025-05-04T13:12:47+08:00">
-  <meta itemprop="wordCount" content="333">
+  <meta itemprop="wordCount" content="331">
   <meta itemprop="keywords" content="Cloth-Simulation"><meta property="og:url" content="https://hoverlod.github.io/post/what-i-read-in-april/">
   <meta property="og:site_name" content="hoverload&#39;s blog">
   <meta property="og:title" content="What I read in April 2025">
@@ -245,10 +245,10 @@ Have a feeling that I’ve heard these names in college.…">
 <li><a href="https://oi-wiki.org/ds/fenwick/">树状数组 - OI Wiki</a></li>
 </ul>
 <p>唐巧的博客最近出了一系列OJ教学的文章，所谓CSPJ，根据<a href="https://blog.devtang.com/2024/09/17/cspj-introduction/">这篇介绍</a>，是辅导备战NOIP的小学/初中生的。之前都是二分、DFS之类基础内容，这次变成没见过的模板题了，很快能看完，了解一下也比较有意思。</p>
-<p><strong>树状数组</strong>或<strong>二元索引树</strong>（英语：Binary Indexed Tree），又以其发明者命名为FenwickFenwick树.这是个专门构造的数据结构，在一维数组里存储树形结构，可以降低区间求和的时间复杂度。</p>
+<p><strong>树状数组</strong>或<strong>二元索引树</strong>（英语：Binary Indexed Tree，简称 BIT），又以其发明者命名为FenwickFenwick树.这是个专门构造的数据结构，在一维数组里存储树形结构，可以降低区间求和的时间复杂度。</p>
 <p>定义：
-对于一个长度为 N 的序列，为了满足上面提到的更快的区间求和和更新的需求，我们可以构造一个树状数组。</p>
-<p>树状数组（Binary Index Tree，简称 BIT）通过构造另一个长度为 N 的数组，来做到：</p>
+对于一个长度为 N 的序列，为了满足上面提到的更快的区间求和和更新的需求，我们可以构造一个树状数组。
+通过构造另一个长度为 N 的数组，来做到：</p>
 <ul>
 <li>区间求和，时间复杂度<code>O(log N)</code></li>
 <li>更新某一个数，时间复杂度<code>O(log N)</code>

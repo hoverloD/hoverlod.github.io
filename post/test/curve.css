@@ -1,0 +1,43 @@
+.outer {
+  margin-top: 20px;
+  width: 375px;
+  aspect-ratio: 1;
+
+  /* border radius */
+  --r: 12px;
+
+  /* width, height, and outline of smaller box */
+  --w: 160px;
+  --h: 60px;
+  --o: 8px;
+
+  /* offset and size of the radial-gradient images */
+  --ofs: calc(-1 * var(--o));
+  --sz: calc(var(--r) + var(--o));
+  --img: radial-gradient(circle at right bottom, transparent var(--r), #faf8f1 var(--r));
+
+  border-radius: var(--r);
+  background-image: var(--img), var(--img);
+  background-position: var(--ofs) var(--h), var(--w) var(--ofs);
+  background-size: var(--sz) var(--sz);
+  background-repeat: no-repeat;
+  background-color: dodgerblue;
+
+  .inner {
+   width: var(--w);
+   height: var(--h);
+   outline: var(--o) solid #faf8f1;
+   border-radius: inherit;
+   background: skyblue;
+  }
+}
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+}

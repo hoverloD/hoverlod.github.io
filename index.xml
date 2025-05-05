@@ -6,7 +6,7 @@
     <description>Recent content on hoverload&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 05 May 2025 23:58:46 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 May 2025 01:53:49 +0800</lastBuildDate>
     <atom:link href="https://hoverlod.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hoverlod.github.io/about/</guid>
       <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;常用id：hoverload；&lt;/li&gt;&#xA;&lt;li&gt;前端开发，后端略懂，啥都想学；&lt;/li&gt;&#xA;&lt;li&gt;RSS信徒、独立博客爱好者；&lt;/li&gt;&#xA;&lt;li&gt;仓鼠癖，喜欢囤积电子书和游戏；&lt;/li&gt;&#xA;&lt;li&gt;每年的flag都是学语言（自然语言and编程语言）……&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于blog&#34;&gt;关于Blog&lt;/h2&gt;&#xA;&lt;p&gt;本人爱做笔记，大学也在各种平台写过blog，工作后变成了在不同的软件跟设备上东记西记，没有很认真整理了，所以最近决定回归经典。&lt;/p&gt;&#xA;&lt;p&gt;博客内容大概是技术学习、文章摘录、日常吐槽，简短的内容会偏多些。&lt;/p&gt;&#xA;&lt;p&gt;还有些TODO：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 没有侧边栏目录&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 代码块的主题希望改一下，浅色模式配浅色代码块&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 似乎没有tabs页，只生成了针对单个tab的页面&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;只能说Paper主题比较简洁，有些功能还得自己DIY&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Curved Box Cutouts in CSS</title>
+      <link>https://hoverlod.github.io/post/curved-box-cutouts-in-css/</link>
+      <pubDate>Tue, 06 May 2025 01:53:49 +0800</pubDate>
+      <guid>https://hoverlod.github.io/post/curved-box-cutouts-in-css/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://frontendmasters.com/blog/curved-box-cutouts-in-css/&#34;&gt;Curved Box Cutouts in CSS – Frontend Masters Blog&lt;/a&gt; , shows a trick to create the illusion of an element appended to another with a gap and curved edges at the corners.&lt;/p&gt;&#xA;&lt;link href=&#34;curve.css&#34; rel=&#34;stylesheet&#34; type=&#34;text/css&#34;&gt;&#xA;&lt;div class=&#34;outer&#34;&gt;&lt;div class=&#34;inner&#34; onclick=&#34;alert(&#39;貌似可以做个亮暗切换或者拷贝，点赞等功能按钮，或者小框内放个头像啥的&#39;)&#34;&gt;📌&lt;/div&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Get Things Done——《搞定》节选</title>

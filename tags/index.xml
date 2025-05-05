@@ -6,8 +6,15 @@
     <description>Recent content in Tags on hoverload&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 20 Apr 2025 20:19:50 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 13:12:47 +0800</lastBuildDate>
     <atom:link href="https://hoverlod.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloth-Simulation</title>
+      <link>https://hoverlod.github.io/tags/cloth-simulation/</link>
+      <pubDate>Sun, 04 May 2025 13:12:47 +0800</pubDate>
+      <guid>https://hoverlod.github.io/tags/cloth-simulation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Hugo</title>
       <link>https://hoverlod.github.io/tags/hugo/</link>

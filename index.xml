@@ -6,7 +6,7 @@
     <description>Recent content on hoverload&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 20 Apr 2025 20:19:50 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 13:12:47 +0800</lastBuildDate>
     <atom:link href="https://hoverlod.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hoverlod.github.io/about/</guid>
       <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;常用id：hoverload；&lt;/li&gt;&#xA;&lt;li&gt;前端开发，后端略懂，啥都想学；&lt;/li&gt;&#xA;&lt;li&gt;RSS信徒、独立博客爱好者；&lt;/li&gt;&#xA;&lt;li&gt;仓鼠癖，喜欢囤积电子书和游戏；&lt;/li&gt;&#xA;&lt;li&gt;每年的flag都是学语言（自然语言and编程语言）……&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于blog&#34;&gt;关于Blog&lt;/h2&gt;&#xA;&lt;p&gt;本人爱做笔记，大学也在各种平台写过blog，工作后变成了在不同的软件跟设备上东记西记，没有很认真整理了，所以最近决定回归经典。&lt;/p&gt;&#xA;&lt;p&gt;博客内容大概是技术学习、文章摘录、日常吐槽，简短的内容会偏多些。&lt;/p&gt;&#xA;&lt;p&gt;还有些TODO：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 文章没有显示摘要&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 图片存储问题，不想做图床，最好直接本地存储且能部署在public。主要是想利用obsidian的图片清理功能，未使用的图片能立马删掉。&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 图片没有点击放大的功能，目前大图显示效果不好&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 代码块的主题希望改一下，浅色模式配浅色代码块&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 似乎没有tabs页，只生成了针对单个tab的页面&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;只能说Paper主题比较简洁，有些功能还得自己DIY&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What I read in April 2025</title>
+      <link>https://hoverlod.github.io/post/what-i-read-in-april/</link>
+      <pubDate>Sun, 04 May 2025 13:12:47 +0800</pubDate>
+      <guid>https://hoverlod.github.io/post/what-i-read-in-april/</guid>
+      <description>&lt;h2 id=&#34;cloth-simulation&#34;&gt;cloth simulation&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;HN link: &lt;a href=&#34;https://news.ycombinator.com/item?id=43801179&#34;&gt;Cloth | Hacker News&lt;/a&gt;&#xA;article link: &lt;a href=&#34;https://www.cloudofoz.com/verlet-test/&#34;&gt;@cloudofoz - Verlet simulation test&lt;/a&gt;&#xA;another good post: &lt;a href=&#34;https://pikuma.com/blog/verlet-integration-2d-cloth-physics-simulation&#34;&gt;Pikuma: Verlet Integration and Cloth Physics Simulation&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;A cool websit about cloth interaction, implemented based on Verlet Integration. Gonna make one myself.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Verlet Integration plays an important role in many game physics engines. It&amp;rsquo;s less expensive than, for example, &lt;a href=&#34;https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods&#34;&gt;Runge-Kutta methods&lt;/a&gt; (though also less accurate), but it&amp;rsquo;s also much more stable than&lt;a href=&#34;https://en.wikipedia.org/wiki/Euler_method&#34;&gt;Euler method&lt;/a&gt;.&#xA;Have a feeling that I&amp;rsquo;ve heard these names in college.…&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tailwind测试</title>

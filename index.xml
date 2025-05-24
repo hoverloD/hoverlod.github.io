@@ -6,7 +6,7 @@
     <description>Recent content on hoverload&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 11 May 2025 16:08:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 May 2025 22:40:29 +0800</lastBuildDate>
     <atom:link href="https://hoverlod.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hoverlod.github.io/about/</guid>
       <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;常用id：hoverload；&lt;/li&gt;&#xA;&lt;li&gt;前端开发，后端略懂，啥都想学；&lt;/li&gt;&#xA;&lt;li&gt;RSS信徒、独立博客爱好者；&lt;/li&gt;&#xA;&lt;li&gt;仓鼠癖，喜欢囤积电子书和游戏；&lt;/li&gt;&#xA;&lt;li&gt;每年的flag都是学语言（自然语言and编程语言）……&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于blog&#34;&gt;关于Blog&lt;/h2&gt;&#xA;&lt;p&gt;本人爱做笔记，大学也在各种平台写过blog，工作后变成了在不同的软件跟设备上东记西记，没有很认真整理了，所以最近决定回归经典。&lt;/p&gt;&#xA;&lt;p&gt;博客内容大概是技术学习、文章摘录、日常吐槽，简短的内容会偏多些。&lt;/p&gt;&#xA;&lt;p&gt;还有些TODO：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 没有侧边栏目录&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 代码块的主题希望改一下，浅色模式配浅色代码块&lt;/li&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 似乎没有tabs页，只生成了针对单个tab的页面&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;只能说Paper主题比较简洁，有些功能还得自己DIY&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Life calendar</title>
+      <link>https://hoverlod.github.io/post/life-calendar/</link>
+      <pubDate>Sat, 24 May 2025 22:40:29 +0800</pubDate>
+      <guid>https://hoverlod.github.io/post/life-calendar/</guid>
+      <description>&lt;p&gt;Just now I watched the most popular TED talk on Youtube, &lt;a href=&#34;https://www.youtube.com/watch?v=arj7oStGLkU&amp;amp;ab_channel=TED&#34;&gt;Inside the Mind of a Master Procrastinator | Tim Urban | TED - YouTube&lt;/a&gt;. I saw this video in high school but with no impression, this time I found that the speaker is the author of &lt;a href=&#34;https://waitbutwhy.com/&#34;&gt;Wait But Why&lt;/a&gt;, I&amp;rsquo;m a reader of his blog and I love it. This speech is about the procrastinator&amp;rsquo;mind, there are a decision maker, and a monkey seeking for easy and fun, a simple and acceptable expression.&lt;/p&gt;</description>
     </item>
     <item>
       <title>新的一岁</title>

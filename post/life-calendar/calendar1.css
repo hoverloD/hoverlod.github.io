@@ -1,0 +1,15 @@
+.block-container {
+	width: 80vw;
+	margin: 0 -50%;
+	background-color: #eee;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3px;
+}
+.block {
+	width: 12px;
+	aspect-ratio: 1/1;
+	border-radius: 2px;
+}
+.passed { background-color: #4E6688; }
+.future { background-color: #71C0BB; border: 1px solid #eee; }

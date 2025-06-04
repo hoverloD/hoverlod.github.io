@@ -1,6 +1,6 @@
 .block-container {
 	width: 80vw;
-	margin: 0 -50%;
+	margin: 0 calc(50% - 40vw);
 	background-color: #eee;
 	display: flex;
 	flex-wrap: wrap;
